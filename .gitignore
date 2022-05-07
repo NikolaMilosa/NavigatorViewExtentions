@@ -519,6 +519,7 @@ healthchecksdb
 MigrationBackup/
 
 Logs/
+.idea
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
