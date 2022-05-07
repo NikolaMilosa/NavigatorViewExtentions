@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigatorViewExtentions", "NavigatorViewExtentions\NavigatorViewExtentions.csproj", "{7083CD96-BAB5-442F-938F-0AE0A600500E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigatorViewExtensions", "NavigatorViewExtensions\NavigatorViewExtensions.csproj", "{7083CD96-BAB5-442F-938F-0AE0A600500E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

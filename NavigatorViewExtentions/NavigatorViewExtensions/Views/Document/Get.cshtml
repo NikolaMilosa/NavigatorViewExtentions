@@ -1,0 +1,35 @@
+﻿@using NavigatorViewExtensions.Services.Testing
+@model IEnumerable<DocumentDto>
+
+@{
+    ViewBag.Title = "Document view basic";
+    Layout = "_Layout";
+}
+
+<h2>Document view basic</h2>
+
+<table class="table">
+    <thead>
+    <tr>
+        @{
+            foreach (var property in typeof(DocumentDto).GetProperties())
+            {
+                <td>@property.Name</td>
+            }
+        }
+    </tr>
+    </thead>
+    @{
+        foreach (var document in Model)
+        {
+            <tr>
+                @{
+                    foreach (var property in typeof(DocumentDto).GetProperties())
+                    {
+                        <td>@property.GetValue(document, null)</td>
+                    }
+                }
+            </tr>
+        }
+    }
+</table>

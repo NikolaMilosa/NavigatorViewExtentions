@@ -1,6 +1,4 @@
-using System;
-
-namespace NavigatorViewExtentions.Models
+namespace NavigatorViewExtensions.Models
 {
     public class ErrorViewModel
     {
